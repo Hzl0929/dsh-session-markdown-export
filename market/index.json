@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Hzl0929 DSH plugins",
+    "zh": "Hzl0929 的 DSH 插件"
+  },
+  "plugins": [
+    {
+      "name": "dsh-session-markdown-export",
+      "title": {
+        "en": "Session Markdown Export",
+        "zh": "会话 Markdown 导出"
+      },
+      "description": {
+        "en": "Export one DSH session as a single foldable Markdown document from the sidebar session menu.",
+        "zh": "在侧栏会话菜单把一个会话导出为可折叠的 Markdown 文档。"
+      },
+      "icon": "icons/dsh-session-markdown-export.svg",
+      "author": "Hzl0929",
+      "homepage": "https://github.com/Hzl0929/dsh-session-markdown-export#readme",
+      "repository": {
+        "url": "https://github.com/Hzl0929/dsh-session-markdown-export"
+      },
+      "versions": [
+        {
+          "version": "1.0.1",
+          "publishTimestamp": 1795045661,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1"
+          }
+        }
+      ]
+    }
+  ]
+}

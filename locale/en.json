@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session Markdown Export",
+    "description": "Export a whole session as a foldable Markdown file from the sidebar session menu: reasoning and replies kept, tool calls reduced to their names, with per-turn timing and the models used."
+  }
+}

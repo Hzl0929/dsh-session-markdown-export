@@ -1,0 +1,55 @@
+{
+  "name": "dsh-session-markdown-export",
+  "version": "1.0.1",
+  "description": "Export one DSH session as a foldable Markdown document from the sidebar session menu.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Hzl0929 <1120345756@qq.com>",
+  "homepage": "https://github.com/Hzl0929/dsh-session-markdown-export#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hzl0929/dsh-session-markdown-export.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hzl0929/dsh-session-markdown-export/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "harness",
+    "session",
+    "markdown",
+    "export"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib/render.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ]
+    }
+  }
+}

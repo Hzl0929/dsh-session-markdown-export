@@ -1,0 +1,3 @@
+- insert:
+    - id: session-markdown-export
+      name: dsh-session-markdown-export
